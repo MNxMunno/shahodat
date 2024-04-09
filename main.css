@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1320px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.nimadur .content h1 {
+  font-family: sans-serif;
+  font-size: 32px;
+  color: #000;
+}
+.nimadur .content .cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  flex-direction: column;
+}
+.nimadur .content .cards .card {
+  padding: 20px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+}
+.nimadur .content .cards .card .card-child img {
+  width: 355px;
+}
+.nimadur .content .cards .card .card-child p {
+  max-width: 568px;
+  padding-top: 50px;
+}/*# sourceMappingURL=main.css.map */
